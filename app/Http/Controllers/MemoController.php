@@ -17,6 +17,7 @@ class MemoController extends Controller
         // memosティレクトリーの中のindexページを指定し、memosの連想配列を代入
         return view('memos.index', ['memos' => $memos]);
     }
+
     // showページへ移動
     public function show($id)
     {
